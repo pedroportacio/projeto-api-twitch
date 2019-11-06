@@ -52,6 +52,7 @@ function Stream() {
                 <div className="card-text">
                   {channel.viewer_count} pessoas assitindo
                 </div>
+                <div className="card-text">Linguagem ({channel.language})</div>
                 <button className="btn btn-success">
                   <a
                     href={"https://twitch.tv/" + channel.user_name}
