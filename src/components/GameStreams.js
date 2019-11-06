@@ -44,6 +44,7 @@ function GameStreams({ match, location }) {
                 <div className="card-text">
                   {stream.viewer_count} pessoas assistindo
                 </div>
+                <div className="card-text">Linguagem ({stream.language})</div>
                 <button className="btn btn-success">
                   <a
                     className="link"
