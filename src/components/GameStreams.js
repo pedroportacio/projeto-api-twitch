@@ -29,7 +29,7 @@ function GameStreams({ match, location }) {
   }, []);
   return (
     <div>
-      <h1 className="text-center">Strems de {match.params.id}</h1>
+      <h1 className="text-center">Streams de {match.params.id}</h1>
       <h3 className="text-center">
         <strong className="text-primary">{viewers}</strong> pessoas assistindo
         agora {match.params.id}
