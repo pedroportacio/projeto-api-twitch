@@ -10,8 +10,6 @@ import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 
-//go into api.js and paste your twitch API key into the variable
-//to test the app properly
 function App() {
   return (
     <Router>
